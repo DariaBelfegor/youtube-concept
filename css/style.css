@@ -2,8 +2,14 @@
   box-sizing:border-box;
 }
 .body{
-  font-family: Arial, Helvetica, sans-serif;
+
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
 }
+
 .header{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -11,6 +17,7 @@
   padding-right: 70px;
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .menu-button{
@@ -57,6 +64,7 @@
   padding-bottom: 12px;
   padding-left: 23px;
   padding-right: 23px;
+  width: 100%;
 }
 
 .button-search{
@@ -98,4 +106,60 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+
+.sidebar{
+  padding-left: 32px;
+}
+
+.naw-bar{
+  margin-top: 0;
+  margin-bottom: 60px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.naw-item{
+  margin-bottom: 28px;
+
+
+}
+
+.naw-link{
+  display: flex;
+  align-items: center;
+  color: #898989;
+  fill: #898989;
+  text-decoration: none;
+}
+
+.naw-link:hover{
+  color: #ff0000;
+}
+
+.naw-link:hover .icon {
+  fill: #ff0000;  
+}
+
+.naw-item .icon {
+  fill: #898989;
+}
+
+.naw-text{
+  margin-left: 13px;
+}
+
+.naw-image{
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.naw-title{
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 30px;
 }
